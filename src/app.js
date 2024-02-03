@@ -28,7 +28,9 @@ window.onload = function() {
 
   nameDomainGenerator(pronoun, adj, noun);
 
-  console.log(namesdoamins);
+  for (let i = 0; i < namesdoamins.length; i++) {
+    console.log(namesdoamins[i]);
+  }
 };
 
 // :D
